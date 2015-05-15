@@ -1,0 +1,53 @@
+* {
+  -webkit-user-select: none;
+}
+
+body {
+  background-image: url('images/htmlbg.png')
+}
+
+.oneRowForm {
+  margin: 3px;
+  padding-top: 5px;  
+  padding-left: 5px;
+  border: 1px #e4e4e4 solid;
+}
+
+.topMargin5{
+  border: 20px;
+  margin: 20px;
+}
+
+.file {
+  padding: 2px;
+  margin: 2px;
+  width: 80px;
+  display: inline-block;
+
+  text-align: center;
+  vertical-align: top;
+}
+
+.file.focus {
+  background-color: #08C;
+  -webkit-border-radius: 4px;
+}
+
+.file .name {
+  width: 80px;
+  word-wrap: break-word;
+}
+
+.file.focus .name {
+  color: white;
+}
+
+.file .icon {
+  margin: auto;
+  margin-top: 0;
+  width: 60px;
+}
+
+.file.focus .icon {
+  -webkit-filter: invert(20%);
+}

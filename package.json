@@ -1,0 +1,11 @@
+{
+  "name": "LogViewer",
+  "description": "Log viewer for bunyan logs of collection server",
+  "version": "0.0.1",
+  "main": "index.html",
+  "window": {
+  	"toolbar": true,
+    "width": 1024,
+    "height": 800
+  }
+}
